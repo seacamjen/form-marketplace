@@ -1,3 +1,11 @@
+body {
+  background-color: darkgrey;
+  color: black;
+}
+
+.col-md-4, .col-md-8, .col-md-6 {
+  margin: 5px;
+}
 .getCustInfo {
   display: inline-block;
 }
@@ -8,9 +16,14 @@
 
 .shipping {
   display: none;
+  font-size: 20px;
 }
 
 .javaScriptOrdered {
   font-size: 20px;
   font-weight: bold;
+}
+
+h1 {
+  text-align: center;
 }
